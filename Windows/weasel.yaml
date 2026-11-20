@@ -48,8 +48,8 @@ global_ascii: false                        # 切换为 ascii 模式时，是否�
 # [style]
 # 字体；候选项、候选窗口的行为、布局及样式
 style:
-  color_scheme: Mu_Gou_Ru_Bi      # 默认配色方案
-  color_scheme_dark: Mu_Gou_Ru_Mao                # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
+  color_scheme: Ranmin_Light      # 默认配色方案
+  color_scheme_dark: Ranmin_Dark                # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
 
   # 全局字体
   # 格式：字体1:起始码位:结束码位:字重:字形,字体2……，字体会依次 fallback
@@ -121,9 +121,9 @@ style:
 
 preset_color_schemes:
   # 以下是一个配色方案示例
-  Mu_Gou_Ru_Bi:                                      # 在 `style/color_schema` 指定的配色方案值
-    name: "姆媾茹屄"                       # 方案设置中显示的配色名称
-    author: 姆媾茹                           # 配色作者名称
+  Ranmin_Light:                                      # 在 `style/color_schema` 指定的配色方案值
+    name: "Ranmin 浅色"                       # 方案设置中显示的配色名称
+    author: ranmin                           # 配色作者名称
     color_format: rgba                       # 颜色格式：argb（0xaarrggbb）；rgba（0xrrggbbaa）；abgr（0xaabbggrr 默认）
     # 默认配色
     text_color: 0x2E3440                     # 文字
@@ -153,9 +153,9 @@ preset_color_schemes:
     # nextpage_color: 0x000000               # 下一页
     # prevpage_color: 0x000000               # 上一页
 
-  Mu_Gou_Ru_Mao:                          # 在 `style/color_schema` 指定的配色方案值
-    name: "姆媾茹毛"                        # 方案设置中显示的配色名称
-    author: 姆媾茹                           # 配色作者名称
+  Ranmin_Dark:                          # 在 `style/color_schema` 指定的配色方案值
+    name: "Ranmin 深色"                        # 方案设置中显示的配色名称
+    author: ranmin                           # 配色作者名称
     color_format: rgba                       # 颜色格式：argb（0xaarrggbb）；rgba（0xrrggbbaa）；abgr（0xaabbggrr 默认）
     # 默认配色
     text_color: 0xf9f9f9                     # 文字

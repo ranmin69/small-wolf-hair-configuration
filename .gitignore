@@ -22,3 +22,14 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+
+# Editors / IDEs
+.idea/
+.vscode/
